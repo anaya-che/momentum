@@ -1,5 +1,3 @@
 import './js/time';
-import {setLocalStorage, getLocalStorage} from './js/greeting';
-
-window.addEventListener('beforeunload', setLocalStorage);
-window.addEventListener('load', getLocalStorage);
+import './js/greeting';
+import './js/slider';
