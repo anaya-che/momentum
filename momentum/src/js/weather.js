@@ -52,7 +52,6 @@ function getLocalStorage() {
 
 window.addEventListener('beforeunload', setLocalStorage);
 window.addEventListener('load', getLocalStorage);
-document.addEventListener('load', getWeather);
 document.addEventListener('DOMContentLoaded', getWeather);
 city.addEventListener('keypress', setCity);
 city.addEventListener('blur', setCity);
