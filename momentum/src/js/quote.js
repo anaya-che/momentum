@@ -5,7 +5,7 @@ let randomQuote;
 
 async function getQuotes() {
     getRandomQuoteNum();
-    const quotes = '../js/data.json';
+    const quotes = './js/data.json';
     const res = await fetch(quotes);
     const data = await res.json(); 
 
