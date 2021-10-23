@@ -16,11 +16,11 @@ export function getTimeOfDay() {
     else if (hours >= 0 && hours < 6) return 'night';
 }
 
-export function setLocalStorage() {
+function setLocalStorage() {
     localStorage.setItem('name', name.value);
 }
 
-export function getLocalStorage() {
+function getLocalStorage() {
     if(localStorage.getItem('name')) {
       name.value = localStorage.getItem('name');
     }
