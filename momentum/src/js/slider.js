@@ -1,4 +1,5 @@
 import {getTimeOfDay} from './greeting';
+import greetingTranslation from './greetingTranslation';
 
 const body = document.querySelector('body');
 const prevButton = document.querySelector('.slide-prev');
@@ -14,7 +15,7 @@ function setBg() {
     const timeOfDay = getTimeOfDay();
     const bgNum = randomNum.toString().padStart(2, "0");
     const img = new Image();
-    img.src = `https://raw.githubusercontent.com/anaya-che/stage1-tasks/assets/images/${timeOfDay}/${bgNum}.jpg`
+    img.src = `https://raw.githubusercontent.com/anaya-che/stage1-tasks/assets/images/${greetingTranslation[timeOfDay].img}/${bgNum}.jpg`
     img.addEventListener('load', () => {
         body.style.backgroundImage = `url(${img.src})`
     })

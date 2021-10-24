@@ -1,9 +1,10 @@
 import {showGreeting} from './greeting';
+import state from './settings';
 
 const time = document.querySelector('.time');
 const date = document.querySelector('.date');
 
-function showTime() {
+export function showTime() {
     const newDate = new Date();
     const currentTime = newDate.toLocaleTimeString();
     time.textContent = currentTime;
@@ -16,7 +17,8 @@ function showDate() {
     const newDate = new Date();
     const options = {month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZone: 'UTC'};
     const currentDate = newDate.toLocaleDateString('en-US', options);
-    date.textContent = currentDate;
+    if (state.language === 'ru') date.textContent = newDate.toLocaleDateString('ru-RU', options);
+    else date.textContent = newDate.toLocaleDateString('en-US', options);
 }
 
 showTime();

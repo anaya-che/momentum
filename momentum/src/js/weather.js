@@ -1,3 +1,5 @@
+import state from './settings';
+
 const apiKey = `ced6a511c26cbbcbf6901ebfa65d488e`;
 const weatherIcon = document.querySelector('.weather-icon');
 const temperature = document.querySelector('.temperature');
@@ -7,9 +9,9 @@ const wind = document.querySelector('.wind');
 const humidity = document.querySelector('.humidity');
 const weatherError = document.querySelector('.weather-error');
 
-async function getWeather() {
+export async function getWeather() {
     getLocalStorage();
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&lang=en&appid=ced6a511c26cbbcbf6901ebfa65d488e&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&lang=${state.language}&appid=ced6a511c26cbbcbf6901ebfa65d488e&units=metric`;
     const res = await fetch(url);
     const data = await res.json();
     
@@ -19,8 +21,15 @@ async function getWeather() {
         weatherIcon.classList.add(`owf-${data.weather[0].id}`);
         temperature.textContent = `${Math.round(data.main.temp)}°C`;
         weatherDescription.textContent = data.weather[0].description;
-        wind.textContent = `Wind speed: ${Math.round(data.wind.speed)} m/s`;
-        humidity.textContent = `Humidity: ${Math.round(data.main.humidity)}%`;
+        if (state.language === 'ru') {
+            wind.textContent = `Скорость ветра: ${Math.round(data.wind.speed)} м/с`;
+            humidity.textContent = `Влажность: ${Math.round(data.main.humidity)}%`;
+        }
+        else {
+            wind.textContent = `Wind speed: ${Math.round(data.wind.speed)} m/s`;
+            humidity.textContent = `Humidity: ${Math.round(data.main.humidity)}%`;
+        }
+        
     }
     
     catch(err) {

@@ -1,70 +1,143 @@
-[
-  {
-    "text": "The only time you should ever look back, is to see how far you've come.",
-    "author": "Bangtan Boys, Butterfly"
-  },
-  {
-    "text": "Life is a sculpture that you cast as you make mistakes and learn from them.",
-    "author": "Kim Namjoon"
-  },
-  {
-    "text": "I hope you know your limits well, but don’t stay within those limits. Overcome the limits each day.",
-    "author": "Kim Namjoon"
-  },
-  {
-    "text": "If any of you feels lost in the face of uncertainty or the pressure of starting anew, don't rush. Take a deep breath. You may find that any moment can be turned into opportunity.",
-    "author": "Kim Seokjin"
-  },
-  {
-    "text": "Those who keep trying without giving up are the ones who succeed.",
-    "author": "Kim Seokjin"
-  },
-  {
-    "text": "When something is delicious. It's zero calories.",
-    "author": "Kim Seokjin"
-  },
-  {
-    "text": "Life is tough, and things don't always work out well, but we should be brave and go on with our lives.",
-    "author": "Min Yoongi"
-  },
-  {
-    "text": "Don't be trapped in someone else's dream.",
-    "author": "Kim Taehyung"
-  },
-  {
-    "text": "When things get hard, stop for awhile and look back and see how far you've come. Don't forget how rewarding it is.",
-    "author": "Kim Taehyung"
-  },
-  {
-    "text": "Forget what hurt you, but never forget what it taught you.",
-    "author": "Kim Taehyung"
-  },
-  {
-    "text": "Trust is like a paper. When it crumbles, it will never be perfect again.",
-    "author": "Kim Taehyung"
-  },
-  {
-    "text": "No matter how hard it is right now, think of what the result will make you feel.",
-    "author": "Park Jimin"
-  },
-  {
-    "text": "Never give up on a dream that you've been crashing almost your whole life.",
-    "author": "Park Jimin"
-  },
-  {
-    "text": "Life isn't about being perfect, it's about accomplishing your dreams.",
-    "author": "Jeon Jungkook"
-  },
-  {
-    "text": "Effort makes you. You will regret someday if you don't do your best now.",
-    "author": "Jeon Jungkook"
-  },
-  {
-    "text": "Don't think it's too late to keep working on it. It may take time, but there's nothing that gets worse due to practising.",
-    "author": "Jeon Jungkook"
-  },
-  {
-    "text": "All our dreams come true, if we have the courage to persue them.",
-    "author": "Jeon Jungkook"
-  }
-]
+{
+  "en": [
+    {
+      "text": "The only time you should ever look back, is to see how far you've come.",
+      "author": "Kim Seokjin"
+    },
+    {
+      "text": "Life is a sculpture that you cast as you make mistakes and learn from them.",
+      "author": "Kim Namjoon"
+    },
+    {
+      "text": "I hope you know your limits well, but don’t stay within those limits. Overcome the limits each day.",
+      "author": "Kim Namjoon"
+    },
+    {
+      "text": "If any of you feels lost in the face of uncertainty or the pressure of starting anew, don't rush. Take a deep breath. You may find that any moment can be turned into opportunity.",
+      "author": "Kim Seokjin"
+    },
+    {
+      "text": "Those who keep trying without giving up are the ones who succeed.",
+      "author": "Kim Seokjin"
+    },
+    {
+      "text": "When something is delicious. It's zero calories.",
+      "author": "Kim Seokjin"
+    },
+    {
+      "text": "Life is tough, and things don't always work out well, but we should be brave and go on with our lives.",
+      "author": "Min Yoongi"
+    },
+    {
+      "text": "Don't be trapped in someone else's dream.",
+      "author": "Kim Taehyung"
+    },
+    {
+      "text": "When things get hard, stop for awhile and look back and see how far you've come. Don't forget how rewarding it is.",
+      "author": "Kim Taehyung"
+    },
+    {
+      "text": "Forget what hurt you, but never forget what it taught you.",
+      "author": "Kim Taehyung"
+    },
+    {
+      "text": "Trust is like a paper. When it crumbles, it will never be perfect again.",
+      "author": "Kim Taehyung"
+    },
+    {
+      "text": "No matter how hard it is right now, think of what the result will make you feel.",
+      "author": "Park Jimin"
+    },
+    {
+      "text": "Never give up on a dream that you've been crashing almost your whole life.",
+      "author": "Park Jimin"
+    },
+    {
+      "text": "Life isn't about being perfect, it's about accomplishing your dreams.",
+      "author": "Jeon Jungkook"
+    },
+    {
+      "text": "Effort makes you. You will regret someday if you don't do your best now.",
+      "author": "Jeon Jungkook"
+    },
+    {
+      "text": "Don't think it's too late to keep working on it. It may take time, but there's nothing that gets worse due to practising.",
+      "author": "Jeon Jungkook"
+    },
+    {
+      "text": "All our dreams come true, if we have the courage to persue them.",
+      "author": "Jeon Jungkook"
+    }
+  ],
+
+  "ru": [
+    {
+      "text": "Ты можешь оглянуться назад только в том случае, если хочешь посмотреть, как далеко ты продвинулся.",
+      "author": "Ким Сокджин"
+    },
+    {
+      "text": "Жизнь - это скульптура, которую вы создаете, совершая ошибки и учась на них.",
+      "author": "Ким Намджун"
+    },
+    {
+      "text": "Я надеюсь, что ты хорошо знаешь свои пределы, но не останавливайся на этом. Преодолевай свои пределы каждый день.",
+      "author": "Ким Намджун"
+    },
+    {
+      "text": "Если кто-то из вас чувствует себя потерянным перед лицом неопределенности или необходимости начинать все сначала, не спешите. Сделайте глубокий вдох. Вы сможете увидеть, что любой момент может стать возможностью.",
+      "author": "Ким Сокджин"
+    },
+    {
+      "text": "Те, кто продолжает пытаться не сдаваясь - это те, кто добьется успеха.",
+      "author": "Ким Сокджин"
+    },
+    {
+      "text": "Когда еда вкусная. В ней ноль калорий.",
+      "author": "Ким Сокджин"
+    },
+    {
+      "text": "Жизнь трудна, и не всегда все складывается отлично, но мы должны быть смелыми и продолжать жить своей жизнью.",
+      "author": "Мин Юнги"
+    },
+    {
+      "text": "Не попади в ловушку чужой мечты.",
+      "author": "Ким Тэхен"
+    },
+    {
+      "text": "Когда станет трудно, остановись на мгновение, оглянись назад и посмотри, как далеко ты продвинулся. Не забывай, как это полезно.",
+      "author": "Ким Тэхен"
+    },
+    {
+      "text": "Забудь, что причинило тебе боль, но никогда не забывай, чему это тебя научило.",
+      "author": "Ким Тэхен"
+    },
+    {
+      "text": "Доверие - это как бумага. Если она скомкается, то никогда уже не будет идеальной.",
+      "author": "Ким Тэхен"
+    },
+    {
+      "text": "Не важно, насколько это трудно сейчас, подумайте о том, что вы почувствуете, когда достигнете цели.",
+      "author": "Пак Чимин"
+    },
+    {
+      "text": "Никогда не отказывайся от мечты, в которую ты был влюблен почти всю свою жизнь.",
+      "author": "Пак Чимин"
+    },
+    {
+      "text": "Жизнь не о том, чтобы быть идеальным, она о том, чтобы осуществить свои мечты.",
+      "author": "Чон Чонгук"
+    },
+    {
+      "text": "Усилия совершенствуют тебя. Когда-нибудь ты пожалеешь, если не сделаешь сейчас все, что в твоих силах.",
+      "author": "Чон Чонгук"
+    },
+    {
+      "text": "Никогда не думай, что уже слишком поздно над чем-то работать. Это может занять время, но нет ничего, чтобы становилось хуже с практикой.",
+      "author": "Чон Чонгук"
+    },
+    {
+      "text": "Все твои мечты исполнятся, если у тебя хватит смелости осуществить их.",
+      "author": "Чон Чонгук"
+    }
+  ]
+}
