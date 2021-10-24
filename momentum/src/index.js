@@ -6,3 +6,4 @@ import './js/quote';
 import './js/audio';
 import './js/translation';
 import './js/settings';
+import './js/blocks';

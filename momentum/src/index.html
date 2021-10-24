@@ -10,7 +10,7 @@
 </head>
 <body>
   <header class="header">
-    <div class="player">
+    <div class="player block-hidden">
       <div class="track-title"></div>
       <div class="player-controls">
         <button class="play-prev player-icon"></button>
@@ -33,7 +33,7 @@
       </div>
       <ul class="play-list"></ul>
     </div>
-    <div class="weather">
+    <div class="weather block-hidden">
       <input type="text" class="city" placeholder="[Enter сity]" value="Minsk"/>
       <i class="weather-icon owf"></i>
       <div class="weather-error"></div>
@@ -50,16 +50,16 @@
       <button class="slide-prev slider-icon"></button>
       <button class="slide-next slider-icon"></button>
     </div>
-    <time class="time"></time>
-    <date class="date"></date>
-    <div class="greeting-container">
+    <time class="time block-hidden"></time>
+    <date class="date block-hidden"></date>
+    <div class="greeting-container block-hidden">
       <span class="greeting"></span>
       <input type="text" class="name"/>
     </div>
   </main>
   <footer class="footer">
-    <button class="change-quote"></button>
-    <div>
+    <button class="change-quote block-hidden"></button>
+    <div class="quote-container block-hidden">
       <div class="quote"></div>
       <div class="author"></div>
     </div>
@@ -67,8 +67,32 @@
     <div class="settings-container settings-hidden">
       <div class="lang-container">
         <div class="lang-title"></div>
-        <button class="button-lang button-en" id="en">en</button>
-        <button class="button-lang button-ru" id="ru">ru</button>
+        <div class="lang-button-container">
+          <button class="button button-en" id="en">en</button>
+          <button class="button button-ru" id="ru">ru</button>
+        </div>
+        
+      </div>
+      <div class="source-container">
+        <div class="source-title"></div>
+        <div class="source-button-container">
+          <button class="button button-github">GitHub</button>
+          <button class="button button-unsplash">Unsplash API</button>
+          <button class="button button-flickr">Flickr API</button>
+        </div>
+      </div>
+      <div class="blocks-container">
+        <div class="blocks-title"></div>
+        <div class="blocks-button-container">
+          <button class="blocks-button button-time" id="time">Time</button>
+          <button class="blocks-button button-date" id="date">Date</button>
+          <button class="blocks-button button-greeting" id="greeting">Greeting</button>
+          <button class="blocks-button button-quote" id="quote">Quote</button>
+          <button class="blocks-button button-weather" id="weather">Weather</button>
+          <button class="blocks-button button-audio" id="audio">Audio</button>
+          <button class="blocks-button button-todolist" id="todolist">ToDo List</button>
+        </div>
+        
       </div>
     </div>
   </footer>

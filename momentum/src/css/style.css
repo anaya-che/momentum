@@ -117,7 +117,8 @@ body {
 .slider-icon:hover,
 .change-quote:hover,
 .settings-button:hover,
-.button-lang:hover {
+.button-lang:hover,
+.button-source:hover {
   opacity: 1;
 }
 
@@ -125,7 +126,8 @@ body {
 .slider-icon:active,
 .change-quote:active,
 .settings-button:active,
-.button-lang:active {
+.button-lang:active,
+.button-source:active {
   border: 0;
   outline: 0;  
   transform: scale(1.1);
@@ -366,26 +368,38 @@ body {
   position: absolute;
   bottom: 15px;
   left: 50px;
-  width: 180px;
-  height: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 295px;
+  height: 170px;
   padding: 10px;
   background-color: #000000;
-  opacity: .7;
+  opacity: .9;
   transition: .3s;
 }
 
 .lang-container {
   display: flex;
-  justify-content: flex-start;
   align-items: flex-end;
 }
 
-.button-lang {
-  width: 25px;
+.lang-button-container,
+.source-button-container,
+.blocks-button-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 190px;
+}
+
+.button,
+.blocks-button {
   height: 25px;
-  margin-left: 10px;
   border: 0;
   border-radius: 3px;
+  padding: 0 3px;
   outline: 0;
   opacity: .5;
   background-color: #FFFFFF;
@@ -393,17 +407,47 @@ body {
   transition: .3s;
 }
 
-.active-lang {
+.button-en,
+.button-ru {
+  width: 25px;
+}
+
+.active {
   opacity: 1;
 }
 
-.lang-title {
-  width: 76px;
+.lang-title,
+.source-title,
+.blocks-title {
+  width: 85px;
   text-align: left;
 }
 
 .settings-hidden {
-  left: -180px;
+  left: -295px;
+}
+
+.source-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.blocks-container {
+  display: flex;
+}
+
+.time,
+.date,
+.greeting-container,
+.quote-container,
+.change-quote,
+.weather,
+.player {
+  transition: 1s ease-in-out;
+}
+
+.block-hidden {
+  opacity: 0;
 }
 
 @media (max-width: 768px) {
