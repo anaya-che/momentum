@@ -115,6 +115,7 @@ function playItem(element) {
             }
             else {
                 playNum = i;
+                getAudio();
                 playIfPaused();
             }
         }
