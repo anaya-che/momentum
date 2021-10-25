@@ -122,7 +122,9 @@ body {
 .change-quote:hover,
 .settings-button:hover,
 .button-lang:hover,
-.button-source:hover {
+.button-source:hover,
+.git-link:hover,
+.rss-link:hover {
   opacity: 1;
 }
 
@@ -131,7 +133,9 @@ body {
 .change-quote:active,
 .settings-button:active,
 .button-lang:active,
-.button-source:active {
+.button-source:active,
+.git-link:active,
+.rss-link:active {
   border: 0;
   outline: 0;  
   transform: scale(1.1);
@@ -454,6 +458,40 @@ body {
   opacity: 0;
 }
 
+.info {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.year {
+  font-size: 14px;
+}
+
+.git-link {
+  width: 25px;
+  height: 25px;
+  background-image: url("../assets/svg/github-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: .8;
+  transition: .3s;
+}
+
+.rss-link {
+  width: 60px;
+  height: 23px;
+  background-image: url("../assets/svg/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: .8;
+  transition: .3s;
+}
+
 @media (max-width: 768px) {
 
   .header,
@@ -529,5 +567,15 @@ body {
     height: 20px;
     background-size: contain;
     margin-bottom: 15px;
+  }
+
+  .git-link {
+    width: 20px;
+    height: 20px;
+  }
+
+  .rss-link {
+    width: 50px;
+    height: 19px;
   }
 }
