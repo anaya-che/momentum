@@ -1,7 +1,7 @@
 const state = {
     language: 'en',
     photoSource: 'github',
-    blocks: ['time', 'date','greeting', 'quote', 'weather', 'audio', 'todolist']
+    blocks: ['time', 'date','greeting', 'quote', 'weather', 'audio']
 }
 
 const settingsButton = document.querySelector('.settings-button');
