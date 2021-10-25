@@ -7,3 +7,4 @@ import './js/audio';
 import './js/translation';
 import './js/settings';
 import './js/blocks';
+import './js/api-image';

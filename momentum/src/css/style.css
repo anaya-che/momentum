@@ -19,6 +19,7 @@ body {
   background: url("../assets/img/bg.jpg") center/cover, rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
   transition: background-image 1s ease-in-out;
+  background-size: cover;
 }
 
 .header {
@@ -395,7 +396,8 @@ body {
 }
 
 .button,
-.blocks-button {
+.blocks-button,
+.source-button {
   height: 25px;
   border: 0;
   border-radius: 3px;
