@@ -15,7 +15,7 @@ export function showTime() {
 
 function showDate() {
     const newDate = new Date();
-    const options = {month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZone: 'UTC'};
+    const options = {weekday:'long', month: 'long', day: 'numeric', timeZone: 'UTC'};
     const currentDate = newDate.toLocaleDateString('en-US', options);
     if (state.language === 'ru') date.textContent = newDate.toLocaleDateString('ru-RU', options);
     else date.textContent = newDate.toLocaleDateString('en-US', options);
