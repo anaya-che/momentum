@@ -24,6 +24,7 @@ function getAudio() {
 }
 
 function playAudio() {
+    getAudio()
     if (isPlay) {
         audio.play();
     }
